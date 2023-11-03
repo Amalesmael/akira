@@ -1,0 +1,354 @@
+body{
+    margin: 0
+}
+.cirle{
+     width: 5%;
+    text-align: center;
+    background-color: green;
+    color: white;
+    font-size: 25;
+    position: fixed;
+    overflow: hidden;
+    border-radius: 50px;
+    float: right;
+    bottom: 40px;
+    margin-left:  40px
+    
+}
+.flex-one{
+     display: flex;
+     justify-content: space-between;
+     background-color:  #f05a66;
+    color: white;
+    font-size: 20
+}
+.header-one{
+    padding-left: 100px
+}
+.header-one>ul> li{
+    display: inline-block;
+    border-left: 1px solid white
+}
+.li-one{
+     opacity: 0;
+     visibility: hidden;
+    position: absolute;
+    transition: .3s;
+    background-color: gainsboro;
+}
+.active:hover .li-one{
+    opacity: 1;
+    visibility: visible
+}
+.touch-child{
+     opacity: 0;
+     visibility: hidden;
+    position: absolute;
+    transition: .3s;
+    background-color: gainsboro;
+}
+.touch:hover .touch-child{
+    opacity: 1;
+    visibility: visible
+}
+.header-two >ul >li{
+    display: inline-block;
+    border-right: 1px solid white;
+    padding-right: 10px
+}
+.header-two{
+    padding-right: 100px
+}
+.header-two a{
+    color: white
+}
+.Lists{
+     display: flex;
+     justify-content: space-between;
+}
+
+.title{
+    padding-left: 100px;
+    width: 15%;
+    padding-top: 30px;
+    
+}
+.lists-one{
+    padding-top: 30px;
+    padding-bottom: 30px
+
+}
+.home > ul >li{
+    display: inline-block; 
+    padding-right: 10px;
+}
+.shope{
+     opacity: 0;
+     visibility: hidden;
+    position: absolute;
+    transition: .3s;
+    background-color: gainsboro;
+    
+}
+.shoope:hover .shope{
+     opacity: 1;
+     visibility: visible;
+   
+}
+.blog{
+    opacity: 0;
+     visibility: hidden;
+    position: absolute;
+    transition: .3s ;
+    background-color: gainsboro;
+}
+.bloog:hover .blog{
+     opacity: 1;
+     visibility: visible;
+} 
+.page{
+    opacity: 0;
+     visibility: hidden;
+    position: absolute;
+    transition: .3s  ;
+    background-color: gainsboro;
+}
+.paage:hover .page{
+    opacity: 1;
+     visibility: visible;
+}
+.elemetor{
+    opacity: 0;
+     visibility: hidden;
+    position: absolute;
+    transition: .3s  ;
+    background-color: gainsboro;
+}
+.elemeentor:hover .elemetor{
+   opacity: 1;
+     visibility: visible; 
+}
+.list-two li{
+    display: inline-block; 
+    padding-right: 20px;
+}
+.list-two{
+    padding-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px
+}
+.photo{
+    display: flex;
+    justify-content: center;
+}
+.photo-one{
+    background-image: url(1.jpeg);
+    height: 500px;
+    width: 80%;
+    padding-left: 20px;
+}
+
+
+.photo-one p{
+    padding-top: 150px;
+    color: white;
+}
+.photo-one h1{
+    color: white
+}
+.photo-one button{
+    background-color: #f05a66;
+    color: white;
+    height: 50px;
+    border: none;
+    width: 10%;
+    font-size: 20
+}
+.three-photo{
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    padding-top: 30px;
+    
+}
+.one-photo{
+    padding-left: 100px;
+    overflow: hidden;
+    position: relative;
+    width: 30%;
+}
+.one-photo img{
+    width: 100%;
+    transition: .9s;
+}
+.one-photo:hover img{
+    transform: scale(1.1,1.1);
+}
+.one-photo button{
+    position: absolute;
+    bottom: 0;    
+    transform: translateY(100%);
+    transition: .5s;
+    border: none;
+    color: white;
+    text-align: center;
+    background-color: #f05a66;
+    font-size: 20
+}
+.one-photo:hover button {
+    transform: translateY(0);
+}
+.photo-two{
+    padding-left: 100px;
+    overflow: hidden;
+    position: relative;
+    width: 30%;
+     transition: .5s; 
+}
+/*.photo-two{
+    width: 100%;
+    transition: .5s;   
+}*/
+.photo-two:hover img{
+    transform: scale(1.1,1.1);}
+ .photo-two button{
+    position: absolute;
+    bottom: 0;    
+    transform: translateY(100%);
+    transition: .5s;
+     border: none;
+    color: white;
+    text-align: center;
+    background-color: #f05a66;
+    font-size: 20
+}
+.photo-two:hover button {
+    transform: translateY(0);
+}
+.three--photo{
+     padding-right: 100px;
+    overflow: hidden;
+    position: relative;
+    width: 30%;
+    transition: .5s;
+    padding-left: 30px
+}
+/*.three--photo{
+    width: 100%;
+    transition: .5s;   
+}*/
+.three--photo:hover img{
+    transform: scale(1.1,1.1);}
+
+ .three--photo button{
+    position: absolute;
+    bottom: 0;    
+    transform: translateY(100%);
+    transition: .5s;
+     border: none;
+    color: white;
+    text-align: center;
+    background-color: #f05a66;
+    font-size: 20
+}
+.three--photo:hover button {
+    transform: translateY(0);
+}
+.four{
+      text-align: center;
+}
+.five{
+    display: inline-block;
+    padding-right: 30px
+}
+.five a{
+    color: #777777;
+    font-size: 20;
+    padding-left: 3px
+}
+.five:hover a{
+    color: black;
+}
+.six{
+   display: inline-block;
+    padding-right: 30px 
+}
+.six a{
+    color: #777777;
+    font-size: 20;
+    padding-left: 3px
+}
+.six:hover a{
+    color: black;
+}
+.seven{
+   display: inline-block;
+    padding-right: 30px 
+}
+.seven a{
+    color: #777777;
+    font-size: 20;
+    padding-left: 3px
+}
+.seven:hover a{
+    color: black;
+}
+.eight{
+    display: flex;
+    justify-content: space-between; 
+    width: 100%
+}
+.nine{
+    padding-left: 100px;
+    padding-right: 30px
+}
+.fourteen{
+    color: black;
+    text-align: center;
+}
+.fiveteen{
+    color: gainsboro;
+    text-align: center;
+}
+.seventeen{
+    overflow: hidden;
+    transition: .1
+}
+.seventeen:hover img{
+    transform: scale(1.1,1.1)
+}
+.ten{
+    padding-right: 30px
+}
+.eleven{
+    padding-right: 30px
+}
+.nineteen{
+  display: flex;
+    justify-content: space-between; 
+    width: 100%  
+}
+.twelve{
+    padding-right: 100px
+}
+.twenty{
+    padding-left: 100px;
+    padding-right: 30px
+}
+.twenty-one{
+    padding-right: 30px
+}
+.twenty-two{
+    padding-right: 30px
+}
+.twenty-four{
+    text-align: center;
+    font-size: 10;
+    padding-left: 30px;
+    padding-top: 30px
+}
+
+
+
+
+
